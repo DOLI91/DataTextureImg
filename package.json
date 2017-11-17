@@ -1,0 +1,27 @@
+{
+  "name": "datatextureimg",
+  "version": "1.0.0",
+  "description": "Learning data textures and how to use data textures to recreate an image based on image data and store it as a texture",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo app.js --live -- -t [babelify --presets es2015] -t glslify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DOLI91/DataTextureImg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DOLI91/DataTextureImg/issues"
+  },
+  "homepage": "https://github.com/DOLI91/DataTextureImg#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babelify": "^8.0.0",
+    "budo": "^10.0.4",
+    "glslify": "^6.1.0",
+    "three": "^0.88.0"
+  }
+}
